@@ -1,0 +1,276 @@
+/* import Fonts =========================== */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* reset css ================================ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* start Hero Section  ===================== */
+
+.Container_one{
+  margin-top: 50px;
+}
+.Container_two{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container_image img {
+  width: 400px;
+  margin-top: -40px;
+}
+
+.Container_contact h1.hero-title {
+  font-size: 3rem;
+  color: #333333;
+  border-left: 4px solid #637BE5;
+  padding-left: 15px;
+  line-height: 64px;
+  border-radius: 1px;
+  margin-bottom: 20px;
+}
+.hero-Content .hero-title span {
+  color: #ffad5a;
+}
+.hero-section p {
+  font-size: 1rem;
+  color: #3e3e3e;
+  margin-bottom: 20px;
+  width: 550px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 16px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn-primary {
+  background-color: #637BE5;
+  color: white;
+}
+
+/* start Mission / Vission / Goals section============================================ */
+
+.node_js {
+  font-size: 2.5rem;
+  color: #1f1c44;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.node_js span {
+  color: #ffad5a;
+}
+.javascri {
+  margin-top: 100px;
+}
+
+.loop .card img {
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.loop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.javascri .loop .card {
+  background-color: rgba(79, 157, 166, 0.1);
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.javascri .loop .card-vission {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.javascri .loop .card-goals {
+  background-color: #fff4d6;
+}
+.javascri .loop .card h3 {
+  color: #000000;
+  margin-bottom: 5px;
+}
+.javascri .loop .card p {
+  color: #424242;
+  font-size: 1rem;
+}
+
+
+
+.readme,
+.comp{
+  margin-top: 100px;
+}
+
+.readme .project,
+.comp .project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project .project-img img {
+  width: 300px;
+}
+
+.project .project1 h2 {
+  color: #333333;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.project .project1 p {
+  width: 700px;
+  color: #3e3e3e;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+.contact-me{
+  margin-top: 100px;
+}
+.contact-me .contact{
+  text-align: center;
+}
+
+.contact-me .contact h3{
+  display: inline-block;
+  font-size: 2rem;
+  border-bottom: 4px solid #ffad5a;
+  margin-bottom: 30px;
+}
+
+
+.social-media{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-media .social-media-items{
+  text-align: center;
+}
+.social-media .social-media-items i{
+  display: block;
+  font-size: 2rem;
+  color: #637BE5;
+  margin-bottom: 15px;
+}
+.social-media .social-media-items span{
+  display: block;
+}
+
+.form-and-img{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-and-img form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.form-and-img form input{
+   outline: none;
+   border: 1px solid gray;
+   padding: 10px 10px;
+   border-radius: 2px;
+   margin-bottom: 15px;
+}
+.form-and-img form textarea{
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  
+}
+.form-and-img form  p{
+  font-size: .8rem;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.form-and-img form .btn{
+  margin-top: 30px;
+}
+.form-and-img img{
+  height: 300px;
+}
+
+.lets-go-to-purchase {
+  margin-top: 50px;
+}
+.lets-go-to {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lets-go-to span {
+  letter-spacing: 2px;
+  color: #3c3e41;
+}
+
+
+.lets-go-to h2 {
+  font-size: 2rem;
+  padding: 10px 0;
+  color: #3c3e41;
+}
+
+
+.have_relex {
+  background-color: #000;
+  margin-top: 100px;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.have_relex .footer-content h2 {
+  font-family: "Lobster", cursive;
+  color: white;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.have_relex .footer-content h2 span {
+  color: #ff5959;
+}
+
+.have_relex .footer-content p {
+  font-size: 0.8rem;
+  color: #d9dbe1;
+  letter-spacing: 1px;
+}
+.card:hover{
+  box-shadow: 4px 4px 4px 4px gray;
+  transition: 0.4s;
+}
+.btn-primary:hover{
+  background-color: rgb(9, 9, 97);
+  color: #ffffff;
+  transition: 0.4s;
+}
